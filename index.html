@@ -1,26 +1,50 @@
 <html>
     <head>
         <title>Pronoia</title>
-        <link rel=""stylesheet" href=""style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-            <div class=""logo"><strong>Pronoia</strong></div>
+            <div class="logo"><strong>Pronoia</strong></div>
 
             <div class="top-bar">
-                <button class="top-link" oneclick="showPage('home')">Home</button>
-                <button class="top-link" oneclick="showPage('about')">About Pronoia</button>
-                <button class="top-link" oneclick="showPage('features')">Features</button>
-                <button class="top-link" oneclick="showPage('terms')">Terms of Use</button>
-                <button class="top-link" oneclick="showPage('support')">Support</button>
-                <button class="top-link" oneclick="showPage('account')">Account and Data Deletion</button>
-                <button class="top-link" oneclick="showPage('contact')">Contact</button>
+                <button class="top-link" onclick="showPage('home')">Home</button>
+                <button class="top-link" onclick="showPage('about')">About Pronoia</button>
+                <button class="top-link" onclick="showPage('features')">Features</button>
+                <button class="top-link" onclick="showPage('support')">Support</button>
+                <button class="top-link" onclick="showPage('contact')">Contact</button>
             </div>
         </header>
 
         <main>
+            <section id="home">
+                <h2>Pronoia</h2>
+                <h3>Medication and Care Companion</h3>
+                <h4>Making daily health management simpler for older adults and the people who care about them</h4>
+                <p>Pronoia makes everyday health management simpler by bringing medication tracking, health information, and caregiver connections together in one easy-to-use app.</p>
+                <h4>[Coming Soon to the App Store]</h4>
+
+                <h3>Simple Care. Better Connected.</h3>
+                <p>Pronoia helps older adults stay organized and independent while giving trusted caregivers a simple way to stay connected.</p>
+                <button onclick="showPage('about')">Learn More</button>
+
+                <h3>Built for Older Adults</h3>
+                <p>Simple, accessible, and designed with everyday routines in mind.</p>
+                <button onclick="showPage('features')">Explore Features</button>
+            </section>
+
+            <section id="about"></section>
             
+            <section id="features"></section>
+            
+            <section id="terms"></section>
+            
+            <section id="support"></section>
+            
+            <section id="account"></section>
+            
+            <section id="contact"></section>
         </main>
     </body>
 </html>
