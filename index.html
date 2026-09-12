@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Pronoia</title>
         <link rel="stylesheet" href="style.css">
@@ -7,7 +8,9 @@
     <body>
         <header>
             <div class="logo">
-                <img src="logo.png" alt="Pronoia logo">
+                <button class="logo-button" onclick="showPage('home')">
+                    <img src="logo.png" alt="Pronoia logo">
+                </button>
             </div>
 
             <div class="top-bar">
@@ -23,10 +26,12 @@
             <section id="home">
                 <h2>Pronoia</h2>
 
-                <h3>Medication and Care Companion</h3>
-                <h4>Making daily health management simpler for older adults and the people who care about them</h4>
+                <h3>Medication & Care Companion</h3>
+                <h4>Making daily health management simpler for older adults and the people who care about them.</h4>
                 <p>Pronoia makes everyday health management simpler by bringing medication tracking, health information, and caregiver connections together in one easy-to-use app.</p>
-                <h4>[Coming Soon to the App Store]</h4>
+                
+                <h3>Coming Soon to the App Store</h3>
+                <p>Pronoia is currently being prepared for release.</p>
 
                 <h3>Simple Care. Better Connected.</h3>
                 <p>Pronoia helps older adults stay organized and independent while giving trusted caregivers a simple way to stay connected.</p>
@@ -43,62 +48,70 @@
                 <h3>What is Pronoia?</h3>
                 <p>Pronoia is a medication and health-tracking app designed specifically for older adults and their caregivers.</p>
                 <p>The idea behind Pronoia came from recognizing that medication management can become overwhelming for older adults, especially when multiple medications, appointments, symptoms, and daily routines need to be managed at the same time.</p>
+                
+                <h3>Our Goal</h3>
                 <p>Instead of creating another complicated health-management system, we wanted to create something simple, accessible, and centered around the relationship between older adults and their caregivers.</p>
             
                 <h3>Why the name "Pronoia"?</h3>
                 <p>Pronoia represents the belief that the people around you are conspiring to do you good.</p>
                 <p>We wanted the name to represent the idea behind the app: creating a connected circle of care where older adults can maintain their independence while still having support from the people who care about them.</p>
+            
+                <h3>Care Should Feel Connected, Not Complicated</h3>
+                <p>At the heart of Pronoia is a simple idea: managing everyday health should feel organized and supportive, not overwhelming.</p>
+
+                <button onclick="showPage('features')">Explore Features</button>
             </section>
             
             <section id="features">
                 <h2>Features</h2>
 
-                <h4>Pronoia brings the tools older adults and caregivers need together in one simple, organized experience.</h4>
+                <h3>Everything You Need in One Place</h3>
+                <p>Pronoia brings the tools older adults and caregivers need together in one simple, organized experience.</p>
                 
                 <div class="feature-grid">
                     <div class="feature-card">
-                        <h3>Medication Tracking</h3>
-                        <p>Keep medication information organized by recording medications, dosages, and schedules in one place.</p>
+                        <h3>💊 Medication Tracking</h3>
+                        <p>Keep medication names, dosages, and schedules organized in one easy-to-access place.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Appointment Tracker</h3>
-                        <p>Keep track of upcoming appointments and important dates without relying entirely on memory.</p>
+                        <h3>📅 Appointment Tracker</h3>
+                        <p>Keep track of upcoming appointments and important dates so they are easier to remember.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Mood Journal</h3>
-                        <p>Record how you are feeling over time and create a personal record that can help users recognize patterns in their daily experiences.</p>
+                        <h3>😊 Mood Journal</h3>
+                        <p>Record how you are feeling over time and create a personal record of your daily experiences.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Symptom Tracking</h3>
-                        <p>Document symptoms alongside other health information to help users keep a more organized personal record.</p>
+                        <h3>📝 Symptom Tracking</h3>
+                        <p>Record symptoms alongside other health information to keep a more organized personal health record.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Refill & Pill Tracker</h3>
-                        <p>Keep track of medication supplies and refill information to help users stay organized.</p>
+                        <h3>🔄 Refill & Pill Tracker</h3>
+                        <p>Keep track of medication supplies and refill information to help make medication routines easier to manage.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Caregiver Connection</h3>
-                        <p>Connect seniors and caregivers so caregivers can stay informed about the information shared with them.</p>
+                        <h3>🤝 Caregiver Connection</h3>
+                        <p>Connect with trusted caregivers and share selected information so everyone can stay informed.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Adherence Plant 🌱</h3>
-                        <p>Pronoia turns medication consistency into visual progress through a virtual plant that grows as users maintain their medication routine.</p>
+                        <h3>🌱 Adherence Plant</h3>
+                        <p>Turn medication consistency into visual progress with a virtual plant that grows as you maintain your medication routine.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Health Report</h3>
-                        <p>Organize information from the app into a health report that can help you keep your personal health information together.</p>
+                        <h3>📊 Health Report</h3>
+                        <p>Bring important information together in an organized health report that can help you keep track of your personal health information.</p>
                     </div>
                 </div>
+
+                <h3>Designed for Simplicity</h3>
+                <p>Pronoia is designed to make everyday health management feel less complicated, with clear information and tools that are easy to find and understand.</p>
             </section>
             
             <section id="support">
                 <h2>Need Help?</h2>
                 <h4>We're here to help.</h4>
 
-                <p>
-                    For questions, technical issues, or feedback about Pronoia, email
-                    <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a>
-                </p>
+                <p>Have a question, found an issue, or need help using Pronoia? Check the common questions below or contact our support team.</p>
                 
                 <h3>Common Questions</h3>
                 <div class="faq-container">
@@ -109,6 +122,10 @@
                      <div class="faq-item">
                         <h4>How do I connect with a caregiver/older adult?</h4>
                         <p>Use the connection feature within the app and enter the required account information.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>How do I track my medications?</h4>
+                        <p> Add your medications in the medication section and enter the relevant medication information and schedule. </p>
                     </div>
                     <div class="faq-item">
                         <h4>How do I delete my account?</h4>
@@ -125,21 +142,40 @@
                         <p>Pronoia is designed primarily for older adults and their caregivers.</p>
                     </div>
                 </div>
+
+                <h3>Still Need Help?</h3>
+                <p>For technical issues, questions, or feedback, contact our support team.</p> 
+                <p>Email: <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a></p>
+                
+                <button onclick="showPage('contact')"> Contact Us</button>
             </section>
             
             <section id="contact">
                 <h2>Contact Pronoia</h2>
 
-                <h3>Have a question, suggestion, or problem?</h3>
-                <p>We'd love to hear from you. For questions, technical issues, feedback, or other inquiries about Pronoia, please contact us.</p>
-                <p>
-                    Email:
-                    <a href="mailto:[General Email]">[GENERAL EMAIL]</a>
-                </p>
-                <p>
-                    Support:
-                    <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a>
-                </p>
+                <h3>We're Here to Help</h3>
+                <p>Have a question, suggestion, or problem with Pronoia? We'd love to hear from you.</p>
+                
+                <div class="contact-card">
+                    <h3>General Questions</h3>
+                    <p>For general questions about Pronoia, our features, or the app, contact us at:</p>
+                    <p><a href="mailto:[GENERAL EMAIL]">[GENERAL EMAIL]</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Technical Support</h3>
+                    <p>Having trouble with the app? Contact our support team and we'll help you troubleshoot the issue.</p>
+                    <p> <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Feedback & Suggestions</h3>
+                    <p> Your feedback helps us improve Pronoia. If you have an idea for a feature or a suggestion for making the app easier to use, we'd love to hear it.</p>
+                    <p><a href="mailto:[GENERAL EMAIL]">Send Feedback [GENERAL EMAIL]</a></p>
+                </div>
+
+                <h3>We're Here for You</h3> 
+                <p>Pronoia is built around making health management simpler and keeping older adults and their caregivers connected.</p>
+
+                <button onclick="showPage('home')">Back to Home</button>
             </section>
 
             <section id="privacy">
@@ -158,10 +194,10 @@
                 <p>Pronoia does not share information with a caregiver unless the user chooses to connect with that caregiver and share information through the app.</p>
 
                 <h3>Data Security</h3>
-                <p>We take reasonable measures to protect information form unauthorized access, alteration, or disclosure.</p>
+                <p>We take reasonable measures to protect information from unauthorized access, alteration, or disclosure.</p>
 
                 <h3>Children's Privacy</h3>
-                <p>pronoia is designed primarily for adults and their caregivers and is not intended for children. We do not knowingly collect personal information from childreb in violation of applicable law.</p>
+                <p>Pronoia is designed primarily for adults and their caregivers and is not intended for children. We do not knowingly collect personal information from children in violation of applicable law.</p>
 
                 <h3>Changes to This Policy</h3>
                 <p>We may update this Privacy Policy from time to time. When changes are made, we will update the effective date of the policy.</p>
@@ -183,7 +219,7 @@
                 <p>Pronoia provides organizational and health-tracking tools designed to help users manage medication information, appointments, symptoms, moods, and other personal health information.</p>
 
                 <h3>Not Medical Advice</h3>
-                <p>Pronoia is not a medical professional and does not provide medical diagnostics, treatement, or advice. Users should consult qualified healthcare professionals regarding medical decisions.</p>
+                <p>Pronoia is not a medical professional and does not provide medical diagnosis, treatment, or advice. Users should consult qualified healthcare professionals regarding medical decisions.</p>
 
                 <h3>User Responsibility</h3>
                 <p>Users are responsible for connecting only with people they intend to share information with.</p>
@@ -206,12 +242,12 @@
 
                 <h3>How to Delete Your Account</h3>
                 <p>In the Pronoia app, go to:</p>
-                <p><strong>Setings → Delete Account → Confirm</strong></p>
+                <p><strong>Settings → Delete Account → Confirm</strong></p>
 
                 <h3>What Happens When You Delete Your Account</h3>
                 <p>When an account is deleted, associated personal information and user-generated information will be deleted unless legally required to be retained.</p>
 
-                <h3>Heed Help?</h3>
+                <h3>Need Help?</h3>
                 <p>
                     If you are unable to access your account and need assistance with deletion, contact
                     <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a>
