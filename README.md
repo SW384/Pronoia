@@ -2,7 +2,7 @@
 Pronoia is a website developed to introduce and provide information about the Pronoia mobile application. It showcases the app's features, explains its purpose, and provides users with additional information and support.
 
 # Live Website
-View the link
+[View the link](https://sw384.github.io/Pronoia/)
 
 # Features
 - Home: Introduces Pronoia and its purpose.
