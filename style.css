@@ -368,4 +368,13 @@ footer {
     .faq-container {
         grid-template-columns: 1fr;
     }
+
+    .phone-image {
+        width: 220px;
+        max-width: 80%;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
 }
